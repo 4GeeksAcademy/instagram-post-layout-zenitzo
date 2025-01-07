@@ -30,21 +30,30 @@ div.post img {
 
 .post-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between; 
+  align-items: center; 
 }
 
-div.post .post-header div:first-child {
-  display: inline-block;
-  width: 80%;
+.header-left {
+  display: flex; 
+  align-items: center; 
+  gap: 5px; 
 }
 
-div.post .post-header div:last-child {
-  display: inline-block;
-  width: 20%;
-  text-align: end;
-  padding-right: 8px;
-  color: gray;
+.header-right {
+  color: gray; 
+}
+
+.icon-container i {
+  font-size: 22px; 
+  color: black; 
+  padding-left: 7px;
+}
+
+.header-right i {
+  font-size: 20px; 
+  color: black; 
+  padding-right: 7px; 
 }
 
 div.post h2,
